@@ -246,7 +246,7 @@ body{
         display: block;
         width: 100%;
         padding-left: 0px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     #left{
         display: none;
@@ -365,10 +365,12 @@ body{
         background-size: cover;
         width: 100%;
         height: 100vh;
+        overflow: visible;
+        /* border: 1px solid green; */
 
     } 
     header{
-        margin-top: 30px;
+        margin-top: 10px;
 
     }
 
@@ -442,6 +444,10 @@ body{
         width: 100%;
         height: 200px;
     }
+    #left2{
+        /* border: 1px solid red; */
+        margin-top: -5px;
+    }
     .left1{
         padding-left: 0px;
         display: flex;
@@ -450,27 +456,32 @@ body{
     }
     .pick{
         font-family: 'Barlow Condensed', sans-serif;
-        font-size:25px;
+        font-size:20px;
         color: white;
         margin-bottom: 0px;
-        margin-top: 30px;
+        margin-top: 10px;
         text-align: center;
     
     }
     #Three{
-        font-size: 14px;
+        font-size: 13px;
         line-height:22px ;
         font-family: 'Barlow', sans-serif;
         color: rgba(208, 214, 249, 100%);
     }
     #story{
-        width: 90%;
+        width: 100%;
         text-align: center;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+    #one{
+        font-size: 14px ;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: rgba(208, 214, 249, 100%);
     }
     #two{
-        font-size: 35px;
+        font-size:25px;
         font-family: 'Bellefair', serif;
     }
     .term{
@@ -478,16 +489,17 @@ body{
         justify-content: center;
         flex-direction:column ;
         gap: 0px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     #right{
         width: 95%;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     #left{
         width: 100%;
         padding-left: 0px;
         margin-top: 30px;
+       
     
     }
     #butn1, #butn2, #butn3{
@@ -511,14 +523,14 @@ body{
         align-items: center;
         flex-direction: row;
         gap: 30px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
     }
     .buttons{
         display: none;
     }
     .log0{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
 }

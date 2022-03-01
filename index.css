@@ -367,6 +367,8 @@ header{
     body{
         background-image: url("starter-code/assets/home/background-home-mobile.jpg");
         background-size: cover;
+        overflow: visible;
+        height: 100vh;
         
         
     } 
@@ -375,13 +377,12 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        gap: 100px;
         padding: 0px;
         margin: 0px;
-        width: 90%;
+        width: 85%;
         margin: auto;
-        margin-top: 100px;
         display: none;
+        /* border: 1px solid red; */
     }
     .logo{
         display: none;
@@ -403,7 +404,8 @@ header{
         padding: 0px;
         margin: 0px;
         margin: auto;
-        margin-top: 70px;
+        margin-top: 30px;
+        gap: 100px;
       
     }
     .first{
@@ -416,13 +418,14 @@ header{
         margin: 0px;
     }
     .second{
-        width: 200px;
+        width: 80%;
         padding: 0px;
         margin: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -20px;
+        margin-top: -50px;
+        /* border: 1px solid blue; */
 
     }
     .second button{
@@ -430,39 +433,39 @@ header{
         margin: 0px;
     }
     .para{
-        width: 370px;
+        width: 350px;
         padding: 20px 10px;
     }
     .para p{
-        font-size: 16px;
+        font-size: 15px;
         font-family: 'Barlow', sans-serif;
-        line-height: 30px;
+        line-height: 25px;
         color: rgba(208, 214, 249, 1);
         margin: 0px;
         text-align: center;
     }
     .hone h1{
         font-family: 'Bellefair', serif;
-        font-size: 120px;
+        font-size: 85px;
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 0px;
     }
     .hthree h4{
         font-family: 'Barlow Condensed', sans-serif;
-        font-size:27px;
+        font-size:20px;
         font-weight: 400;
         color: rgba(208, 214, 249, 1);
     }
     .second button{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         background-color: white;
         color: rgba(11, 13, 23, 1);;
         margin:0px;
         font-family: 'Bellefair', serif;
-        font-size: 32px;
+        font-size: 20px;
         border: none;
         outline: none;
         display: flex;
@@ -470,7 +473,7 @@ header{
         align-items: center;
         cursor: pointer;
         transition: 0.3 ease-in-out;
-        margin-top: -35px;
+        
         
     }
     .second{
@@ -513,12 +516,12 @@ header{
         scroll-behavior: smooth;
     }
     .navitem{
-        margin: 35px 0;
+        margin: 30px 0;
         /* border: 1px solid blue; */
     }
     .navmenu.active{
         right: 0;
-        transition: 0.4s ease-in-out;
+        transition: 0.3s ease-in-out;
         scroll-behavior: smooth;
 
     }
@@ -536,13 +539,13 @@ header{
         display: flex;
         align-items: center;
         padding: 5px 35px;
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Barlow Condensed', sans-serif;
         font-weight: 300;
         color: white;
     }
     .span1{
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Barlow Condensed', sans-serif;
         font-weight: 600;
         color: white;

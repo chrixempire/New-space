@@ -360,23 +360,24 @@ body{
     body{
         background-image: url("starter-code/assets/destination/background-destination-mobile.jpg");
         background-size: cover;
+        overflow: visible;
     }  
     .left{
-        width: 95%;
-        height: 270px;
+        width: 90%;
+        height: 235px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 25px;
-        gap: 20px;
+        gap: 0px;
         margin: 0px;
         margin-top: 15px;
+        /* border: 1px solid red; */
     } 
     .left2 img{
-        margin-top: -20px;
-        width: 200px;
-        height: 200px;
+        margin-bottom: 10px;
+        width: 180px;
+        height: 180px;
     }
     .right{
         display: flex;
@@ -385,7 +386,7 @@ body{
         flex-direction: column;
         width: 95%;
         margin: 0px;
-        gap: 10px;
+        gap: 5px;
         margin-top: 10px;
         padding: 0px;
         
@@ -403,20 +404,24 @@ body{
      }
      .pick{
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         
     
     }
+    .pmoon{
+        height: 130px;
+    }
     .pmoon p{
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'Barlow', sans-serif;
-        line-height: 22px;
+        line-height: 24px;
         text-align: center;
         color: rgba(208, 214, 249, 1);
     }
     .Hone h1{
-        font-size:80px;
+        font-size:60px;
         font-family:'Bellefair', serif ;
+        margin-top: 20px;
     }
     .in-flex{
         display: flex;
@@ -424,7 +429,7 @@ body{
         justify-content: space-between;
         flex-direction: column;
         width: 100%;
-        gap: 10px;
+        gap: 5px;
         margin-top: -5px;
     }
     .in-flex1, .in-flex2{
@@ -437,6 +442,10 @@ body{
     .line2{
         width: 100%;
         margin-top: -3PX;
+        margin-bottom: 5px;
+    }
+    #h-flex1{
+        margin-bottom: 30px;
     }
     .span2{
         color: grey;
@@ -532,8 +541,8 @@ body{
         margin-right: 10px;
     }
     .log0{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         
     }
 
