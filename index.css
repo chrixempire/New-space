@@ -114,14 +114,14 @@ body{
     color: rgba(208, 214, 249, 1);
 }
 .second button{
-    width: 230px;
+    width: 200px;
     border-radius: 50%;
-    height: 230px;
+    height: 200px;
     background-color: white;
     color: rgba(11, 13, 23, 1);;
     margin: 250px 200px 0px 0px;
     font-family: 'Bellefair', serif;
-    font-size: 32px;
+    font-size: 30px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -130,7 +130,7 @@ body{
 }
 .second button:hover{
     background-color: rgb(255, 255, 255, 0.8);
-    outline: 70px solid rgba(36, 38, 47, 0.7);
+    outline: 60px solid rgba(36, 38, 47, 0.7);
 }
 #flex{
     display: flex;
