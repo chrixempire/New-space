@@ -421,7 +421,7 @@ body{
     .Hone h1{
         font-size:60px;
         font-family:'Bellefair', serif ;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .in-flex{
         display: flex;
@@ -443,6 +443,7 @@ body{
         width: 100%;
         margin-top: -3PX;
         margin-bottom: 5px;
+        border:0.1px solid rgb(255, 255, 255, 0.1);
     }
     #h-flex1{
         margin-bottom: 30px;
@@ -458,8 +459,13 @@ body{
         font-family:'Bellefair', serif ;
       
     }
+    .in-flex1 p{
+        font-size: 15px;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: rgba(208, 214, 249, 1);
+    }
     .in-flex2 p{
-        font-size: 18px;
+        font-size: 15px;
         font-family: 'Barlow Condensed', sans-serif;
         color: rgba(208, 214, 249, 1);
     }
@@ -475,7 +481,7 @@ body{
         display: block;
     }
     header{
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .hamburger{
         display: block;
@@ -510,7 +516,7 @@ body{
     }
     .navmenu.active{
         right: 0;
-        transition: 0.4s ease-in-out;
+        transition: 0.3s ease-out;
         scroll-behavior: smooth;
 
     }
